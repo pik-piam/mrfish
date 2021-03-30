@@ -1,4 +1,4 @@
 library(testthat)
-library(mrvalidnitrogen)
+library(mrfish)
 
-test_check("mrvalidnitrogen")
+test_check("mrfish")
