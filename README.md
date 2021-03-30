@@ -1,6 +1,6 @@
 # madrat data preparation for data connected to fish
 
-R package **mrvalidnitrogen**, version **0.2.0**
+R package **mrvalidnitrogen**, version **0.2.1**
 
 [![CRAN status](https://www.r-pkg.org/badges/version/mrvalidnitrogen)](https://cran.r-project.org/package=mrvalidnitrogen)   [![R build status](https://github.com/pik-piam/mrvalidnitrogen/workflows/check/badge.svg)](https://github.com/pik-piam/mrvalidnitrogen/actions) [![codecov](https://codecov.io/gh/pik-piam/mrvalidnitrogen/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrvalidnitrogen)
 

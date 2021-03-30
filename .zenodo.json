@@ -1,6 +1,6 @@
 {
   "title": "mrvalidnitrogen: madrat data preparation for data connected to fish",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "<p>Package contains routines to prepare data for validation exercises.<\/p>",
   "creators": [
     {
