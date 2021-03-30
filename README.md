@@ -1,8 +1,8 @@
 # madrat data preparation for data connected to fish
 
-R package **mrvalidnitrogen**, version **0.2.1**
+R package **mrfish**, version **0.2.3**
 
-[![CRAN status](https://www.r-pkg.org/badges/version/mrvalidnitrogen)](https://cran.r-project.org/package=mrvalidnitrogen)   [![R build status](https://github.com/pik-piam/mrvalidnitrogen/workflows/check/badge.svg)](https://github.com/pik-piam/mrvalidnitrogen/actions) [![codecov](https://codecov.io/gh/pik-piam/mrvalidnitrogen/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrvalidnitrogen)
+[![CRAN status](https://www.r-pkg.org/badges/version/mrfish)](https://cran.r-project.org/package=mrfish)   [![R build status](https://github.com/pik-piam/mrfish/workflows/check/badge.svg)](https://github.com/pik-piam/mrfish/actions) [![codecov](https://codecov.io/gh/pik-piam/mrfish/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrfish)
 
 ## Purpose and Functionality
 
@@ -21,7 +21,7 @@ The additional repository can be made available permanently by adding the line a
 After that the most recent version of the package can be installed using `install.packages`:
 
 ```r 
-install.packages("mrvalidnitrogen")
+install.packages("mrfish")
 ```
 
 Package updates can be installed using `update.packages` (make sure that the additional repository has been added before running that command):
@@ -36,21 +36,20 @@ In case of questions / problems please contact Benjamin Leon Bodirsky <bodirsky@
 
 ## Citation
 
-To cite package **mrvalidnitrogen** in publications use:
+To cite package **mrfish** in publications use:
 
-Bodirsky B (2021). _mrvalidnitrogen: madrat data preparation for validation purposes of
-nitrogen budgets_. R package version 1.1.2, <URL:
-https://github.com/pik-piam/mrvalidnitrogen>.
+Wehner J, Bodirsky B (2021). _mrfish: madrat data preparation for data connected to
+fish_. R package version 0.2.3, <URL: https://github.com/pik-piam/mrfish>.
 
 A BibTeX entry for LaTeX users is
 
  ```latex
 @Manual{,
-  title = {mrvalidnitrogen: madrat data preparation for validation purposes of nitrogen budgets},
-  author = {Benjamin Leon Bodirsky},
+  title = {mrfish: madrat data preparation for data connected to fish},
+  author = {Jasmin Wehner and Benjamin Leon Bodirsky},
   year = {2021},
-  note = {R package version 1.1.2},
-  url = {https://github.com/pik-piam/mrvalidnitrogen},
+  note = {R package version 0.2.3},
+  url = {https://github.com/pik-piam/mrfish},
 }
 ```
 
