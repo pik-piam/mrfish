@@ -1,8 +1,8 @@
 Package: mrfish
 Type: Package
 Title: madrat data preparation for data connected to fish
-Version: 0.2.4
-Date: 2021-03-30
+Version: 0.2.5
+Date: 2021-06-11
 Authors@R: c(person("Jasmin","Wehner",role=c("aut")), person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = c("aut","cre")))
 Description: Package contains routines to prepare data for validation exercises.
 Depends:
