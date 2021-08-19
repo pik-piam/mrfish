@@ -51,10 +51,10 @@ convertFAO_fishery <- function(x, subtype){
     
     
     # split Channel Island (XIS) to GGY and JEY and Sudan (former) (XSF) to SSD and SDN 
-    x_captureSUD <- x_capture[c("SSD","SDN")] 
+    x_captureSUD <- x_capture[c("SSD","SDN"),,] 
     x_capture <- x_capture[c("SSD","SDN"),,invert=TRUE]
     m <- matrix(c(c("XIS","XIS","XSF","XSF"),c("GGY","JEY","SSD","SDN")),4)
-    w <- calcOutput("Population",aggregate=FALSE)[c("GGY","JEY","SSD","SDN"),2010,"pop_SSP2"]
+    w <- calcOutput("Population",aggregate=FALSE)[c("GGY","JEY","SSD","SDN"),"y2010","pop_SSP2"]
     x_split <- toolAggregate(x_capture[c("XIS","XSF"),,],m,weight=w)
     #delete XSF and XIS from x
     x_capture <- x_capture[c("XIS","XSF"),,invert=TRUE]
@@ -104,8 +104,10 @@ convertFAO_fishery <- function(x, subtype){
     SUN <- x_capture[c(f,"SUN"),,]
     x_incl_transition<-NULL
     for (name_x in getNames(SUN)) {
-      firstyear= min(getYears(SUN,as.integer = T)[colSums(SUN[f,,name_x])>0])
+      
+      firstyear = min(getYears(SUN,as.integer = T)[colSums(SUN[f,,name_x])>0])
       lastyear_sun = max(getYears(SUN,as.integer = T)[colSums(SUN["SUN",,name_x])>0])
+      
       if(firstyear-lastyear_sun>1&lastyear_sun>0){firstyear=lastyear_sun+1}
       
       if(firstyear!=1950 & firstyear!=Inf) {
@@ -192,7 +194,7 @@ convertFAO_fishery <- function(x, subtype){
     getNames(x_aqua) <- gsub("Aquatic Animals NEI","Aquatic Animals, Others",getNames(x_aqua))
     
     #split up Channel Islands into GGY and JEY
-    x_aquaSUD <- x_aqua[c("SSD","SDN")] 
+    x_aquaSUD <- x_aqua[c("SSD","SDN"),,] 
     x_aqua <- x_aqua[c("SSD","SDN"),,invert=TRUE]
     m <- matrix(c(c("XIS","XIS","XSF","XSF"),c("GGY","JEY","SSD","SDN")),4)
     w <- calcOutput("Population",aggregate=FALSE)[c("GGY","JEY","SSD","SDN"),2010,"pop_SSP2"]
