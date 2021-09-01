@@ -1,6 +1,6 @@
 # madrat data preparation for data connected to fish
 
-R package **mrfish**, version **0.2.5.9001**
+R package **mrfish**, version **0.2.6**
 
 [![CRAN status](https://www.r-pkg.org/badges/version/mrfish)](https://cran.r-project.org/package=mrfish)   [![R build status](https://github.com/pik-piam/mrfish/workflows/check/badge.svg)](https://github.com/pik-piam/mrfish/actions) [![codecov](https://codecov.io/gh/pik-piam/mrfish/branch/master/graph/badge.svg)](https://codecov.io/gh/pik-piam/mrfish)
 
@@ -38,7 +38,7 @@ In case of questions / problems please contact Benjamin Leon Bodirsky <bodirsky@
 
 To cite package **mrfish** in publications use:
 
-Wehner J, Bodirsky B (2021). _mrfish: madrat data preparation for data connected to fish_. R package version 0.2.5.9001, <URL: https://github.com/pik-piam/mrfish>.
+Wehner J, Bodirsky B (2021). _mrfish: madrat data preparation for data connected to fish_. R package version 0.2.6, <URL: https://github.com/pik-piam/mrfish>.
 
 A BibTeX entry for LaTeX users is
 
@@ -47,7 +47,7 @@ A BibTeX entry for LaTeX users is
   title = {mrfish: madrat data preparation for data connected to fish},
   author = {Jasmin Wehner and Benjamin Leon Bodirsky},
   year = {2021},
-  note = {R package version 0.2.5.9001},
+  note = {R package version 0.2.6},
   url = {https://github.com/pik-piam/mrfish},
 }
 ```

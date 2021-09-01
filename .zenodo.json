@@ -1,6 +1,6 @@
 {
   "title": "mrfish: madrat data preparation for data connected to fish",
-  "version": "0.2.5.9001",
+  "version": "0.2.6",
   "description": "<p>Package contains routines to prepare data for validation exercises.<\/p>",
   "creators": [
     {
