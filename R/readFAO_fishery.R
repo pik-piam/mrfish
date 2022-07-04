@@ -148,4 +148,3 @@ readFAO_fishery <- function(subtype) {
   
   return(x_aqua)
 }
-
