@@ -17,7 +17,6 @@ Depends:
     madrat (>= 1.31),
     magclass (>= 3.17)
 Imports:
-    magpiesets,
     reshape2
 Suggests:
     covr,
