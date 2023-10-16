@@ -1,23 +1,27 @@
-Package: mrfish
 Type: Package
+Package: mrfish
 Title: madrat data preparation for data connected to fish
-Version: 0.2.7
-Date: 2021-11-23
-Authors@R: c(person("Jasmin","Wehner",role=c("aut")), person("Benjamin Leon", "Bodirsky", email = "bodirsky@pik-potsdam.de", role = c("aut","cre")))
-Description: Package contains routines to prepare data for validation exercises.
-Depends:
-    R(>= 2.10.0),
-    magclass(>= 3.17),
-    madrat(>= 1.31)
-Imports:
-    magpiesets,
-	reshape2
-Suggests:
-    testthat,
-    covr
+Version: 0.2.8
+Date: 2023-07-13
+Authors@R: c(
+    person("Jasmin", "Wehner", role = "aut"),
+    person("Benjamin Leon", "Bodirsky", , "bodirsky@pik-potsdam.de", role = c("aut", "cre"))
+  )
+Description: Package contains routines to prepare data for validation
+    exercises.
 License: LGPL-3 | file LICENSE
 URL: https://github.com/pik-piam/mrfish
 BugReports: https://github.com/pik-piam/mrfish/issues
-LazyData: no
+Depends:
+    R (>= 2.10.0),
+    madrat (>= 1.31),
+    magclass (>= 3.17)
+Imports:
+    magpiesets,
+    reshape2
+Suggests:
+    covr,
+    testthat
 Encoding: UTF-8
-RoxygenNote: 7.1.2
+LazyData: no
+RoxygenNote: 7.2.3

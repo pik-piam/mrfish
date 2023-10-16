@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+title: 'mrfish: madrat data preparation for data connected to fish'
+version: 0.2.8
+date-released: '2023-07-13'
+abstract: Package contains routines to prepare data for validation exercises.
+authors:
+- family-names: Wehner
+  given-names: Jasmin
+- family-names: Bodirsky
+  given-names: Benjamin Leon
+  email: bodirsky@pik-potsdam.de
+license: LGPL-3.0
+repository-code: https://github.com/pik-piam/mrfish
+
